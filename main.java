@@ -22,6 +22,9 @@ public class Ej1 {
 			mayor = valor>mayor ? valor:mayor;
 			menor = valor<menor ? valor:menor;			
 		}
+		while(mayor == 0){
+			System.out.println("HOLA")
+		}
 		int media = suma / NUM_INPUTS;
 		System.out.println("La suma de todos los valores es: " + suma);
 		System.out.println("El mayor de todos los valores es: " + mayor);
