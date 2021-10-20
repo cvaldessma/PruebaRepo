@@ -25,6 +25,7 @@ public class Ej1 {
 		while(mayor == 0){
 			System.out.println("HOLA")
 		}
+		int otro = 7;
 		int cesar = 3;
 		int media = suma / NUM_INPUTS;
 		System.out.println("La suma de todos los valores es: " + suma);
